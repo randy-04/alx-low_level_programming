@@ -3,7 +3,7 @@
 
 /**
  * _isalpha - checks for uppercase characters
- * @c : value of char in ascii
+ * @c: value of argument
  * Return: 0 when false, 1 when true
  */	
 int _isalpha(int c)
