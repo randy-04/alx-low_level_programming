@@ -1,4 +1,5 @@
 #include "holberton.h"
+
 /**
  * _islower - checks for lowercase characters
  * @c: value of char in ascii
@@ -6,7 +7,7 @@
  */	
 int _islower(int c)
 {
-	if (c = 97 && c <= 122)
+	if (c <= 'z' && c >= 'a')
 	{
 		return (1);
 	}
