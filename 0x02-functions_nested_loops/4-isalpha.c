@@ -1,11 +1,11 @@
 #include "holberton.h"
 
-
 /**
- * _isalpha - checks for uppercase characters
- * @c: value of argument
- * Return: 0 when false, 1 when true
- */	
+ * _isalpha - to check for alphabet characters
+ * @c : for integer inputs
+ *
+ * Return: Always 0.
+ */
 int _isalpha(int c)
 {
 	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
